@@ -25,11 +25,11 @@ baseurl: "introducing-iiif" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aeh0
 author: "Alison Harvey"
-show_excerpts: true
+
 
 # Build settings
 # copied layout folder and home file from minima repo, over-riding gem theme
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 
