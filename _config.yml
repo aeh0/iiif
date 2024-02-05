@@ -18,17 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: experiiiments
-email: harveyae@cardiff.ac.uk
+title: Introducing IIIF
 description: >- # this means to ignore newlines until "baseurl:"
-  Adventures in IIIF and minimal computing
-baseurl: "experiiiments" # the subpath of your site, e.g. /blog
+  A IIIF tutorial for complete beginners
+baseurl: "introducing-iiif" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alisonhappening
 github_username:  aeh0
 author: "Alison Harvey"
 show_excerpts: true
-excerpt_separator: <!--more-->
 
 # Build settings
 # copied layout folder and home file from minima repo, over-riding gem theme
