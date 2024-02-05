@@ -30,6 +30,7 @@ author: "Alison Harvey"
 # Build settings
 # copied layout folder and home file from minima repo, over-riding gem theme
 theme: minima
+  skin: dark
 plugins:
   - jekyll-feed
 
