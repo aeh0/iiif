@@ -29,16 +29,28 @@ author: "Alison Harvey"
 
 # Build settings
 # copied layout folder and home file from minima repo, over-riding gem theme
-theme: minima
-  skin: dark
+
+remote_theme: jekyll/minima
+
+
 plugins:
   - jekyll-feed
-
+  - jekyll-remote-theme
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: solarized-dark
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
-#
+
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
